@@ -8,7 +8,9 @@ public class Calculator {
     public long multiply(int a, int b){
         return (long) a*b;
     }
-    public double division(int a, int b){
+    public double divide(int a, int b){
+        if(b==0){
+            throw new ArithmeticException("Division by zero");}
         return (double) a/b;
     }
 
