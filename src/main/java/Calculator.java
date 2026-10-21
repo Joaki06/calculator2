@@ -8,5 +8,8 @@ public class Calculator {
     public long multiply(int a, int b){
         return (long) a*b;
     }
+    public double division(int a, int b){
+        return (double) a/b;
+    }
 
 }
